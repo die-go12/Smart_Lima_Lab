@@ -36,7 +36,7 @@ export default async function InsigniasPage() {
                 <div className="flex items-start gap-4">
                   <div className={obtenida ? "" : "opacity-40 grayscale"}>
                     <Imagen
-                      src={`/assets/insignia-${d.codigo}.svg`}
+                      src={`/assets/insignia-${d.codigo}.png`}
                       alt={d.nombre}
                       width={64}
                       height={64}
