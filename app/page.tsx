@@ -73,7 +73,7 @@ export default function Home() {
               width={700}
               height={500}
               aria-hidden="true"
-              className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-[min(120vw,620px)] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-40 mix-blend-screen md:w-[700px] md:-translate-x-[54%]"
+              className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-[min(120vw,620px)] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-70 mix-blend-screen md:w-[700px] md:-translate-x-[54%]"
             />
             <Imagen
               src="/assets/tano-mascota.png"
