@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, MapPin, Users, Award } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Imagen from "@/components/Imagen";
@@ -65,13 +66,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center md:justify-end">
+          <div className="relative isolate flex min-h-[360px] justify-center md:min-h-[500px] md:justify-end">
+            <Image
+              src="/assets/smart-city-map-overlay.png"
+              alt=""
+              width={700}
+              height={500}
+              aria-hidden="true"
+              className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-[min(120vw,620px)] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-25 mix-blend-screen md:w-[700px] md:-translate-x-[54%]"
+            />
             <Imagen
               src="/assets/tano-mascota.png"
               alt="Tano, la mascota de Smart Lima Lab"
-              width={360}
-              height={360}
-              className="w-full max-w-[360px]"
+              width={500}
+              height={500}
+              className="relative z-10 w-full max-w-[430px] md:max-w-[500px]"
             />
           </div>
         </section>
